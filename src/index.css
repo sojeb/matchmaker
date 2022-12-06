@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+p,
+a,
+label,
+th,
+button,
+input {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+th {
+  font-weight: bold !important;
+  background-color: #f9f6fa !important;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.resetBtn_company {
+  margin-left: 20px;
+}
+
+.ant-layout-header {
+  z-index: 1000 !important;
+}
+
+.ant-select-selector,
+input,
+textarea,
+.ant-input-number,
+.ant-picker {
+  border-radius: 5px !important;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.active-button {
+  color: green !important;
+  border-top: 3px solid green!important;
+  border-right: 1px solid green!important;
+  border-left: 1px solid green!important;
+  border-bottom: 1px solid #D3D3D3!important;
+}
+#active-button:hover{
+  color: green !important;
+  border-top: 3px solid green!important;
+  border-right: 1px solid green!important;
+  border-left: 1px solid green!important;
+  border-bottom: 1px solid #D3D3D3!important;
+  background-color: #dbe0e4;
+}
+.inactive-button {
+  color: red !important;
+  border-top: 3px solid red!important;
+  border-right: 1px solid red!important;
+  border-left: 1px solid red!important;
+  border-bottom: 1px solid #D3D3D3!important;
+}
+#inactive-button:hover {
+  color: red !important;
+  border-top: 3px solid red!important;
+  border-right: 1px solid red!important;
+  border-left: 1px solid red!important;
+  border-bottom: 1px solid #D3D3D3!important;
+  background-color: #dbe0e4;
+}
+.ant-form-item-explain-error{
+  font-size: 12px;
+}
+.ant-form-item-with-help .ant-form-item-explain {
+  height: 0 !important;
+  min-height: 6px !important;
+  opacity: 1;
+}
+.ant-form-item-explain-connected {
+  height: 0 !important;
+  min-height: 3px !important;
+  opacity: 0;
+}
+
+.typeOfOilRecord{
+  background-color: #f9f6fa;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/*.ant-form-item-control{
+  max-width: 100% !important;
+}*/
+
+@media(max-width: 780px){
+  .minus_button{
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 574px) {
+  .mb-5 {
+    margin-bottom: -2px !important;
+  }
+  .mt-5{
+    margin-top: 7px;
+  }
+  .ant-form-item-label {
+   margin-bottom: -10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .mb-5 {
+    margin-bottom: 2px !important;
+  }
+  .ant-form-item-label {
+    margin-bottom: -10px;
+  }
+}
